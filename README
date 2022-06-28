@@ -1,0 +1,10 @@
+
+Ce programme SageMath permet de calculer les bons ensembles qui correspondent à l'ensemble des types d'un pavage du plan par un polgone à n côtés et dont les angles sont ordonnés et valent au plus angle_max degrés.
+
+Pour retrouver les 104 bons ensembles pour les pentagones convexes par exemple, il faut entrer la commande suivante :
+
+./sage good_sets.sage 5 180
+
+
+
+Note : ce programme utilise la bibliothèque geometry.polyhedron de SageMath
